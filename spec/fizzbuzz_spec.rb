@@ -18,8 +18,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(12)).to eq 'fizz'
   end
   it 'returns "buzz" when passed a multiple of 5' do
-    expect(fizzbuzz(10)).to eq 'fizz'
-    expect(fizzbuzz(20)).to eq 'fizz'
-    expect(fizzbuzz(35)).to eq 'fizz'
+    expect(fizzbuzz(10)).to eq 'buzz'
+    expect(fizzbuzz(20)).to eq 'buzz'
+    expect(fizzbuzz(35)).to eq 'buzz'
   end
 end
